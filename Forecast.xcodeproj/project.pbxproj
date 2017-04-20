@@ -13,6 +13,7 @@
 		36A902A31EA181D700E2BE47 /* Forecast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36A902A11EA181D700E2BE47 /* Forecast.xcdatamodeld */; };
 		36A902A51EA181D700E2BE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A902A41EA181D700E2BE47 /* Assets.xcassets */; };
 		36A902A81EA181D700E2BE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A902A61EA181D700E2BE47 /* LaunchScreen.storyboard */; };
+		36A902B01EA1876C00E2BE47 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A902AF1EA1876C00E2BE47 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36A902A41EA181D700E2BE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A902A71EA181D700E2BE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A902A91EA181D700E2BE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A902AF1EA1876C00E2BE47 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				36A9029A1EA181D700E2BE47 /* AppDelegate.swift */,
 				36A9029C1EA181D700E2BE47 /* ViewController.swift */,
+				36A902AF1EA1876C00E2BE47 /* Location.swift */,
 				36A9029E1EA181D700E2BE47 /* Main.storyboard */,
 				36A902A41EA181D700E2BE47 /* Assets.xcassets */,
 				36A902A61EA181D700E2BE47 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				36A9029D1EA181D700E2BE47 /* ViewController.swift in Sources */,
 				36A902A31EA181D700E2BE47 /* Forecast.xcdatamodeld in Sources */,
+				36A902B01EA1876C00E2BE47 /* Location.swift in Sources */,
 				36A9029B1EA181D700E2BE47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
